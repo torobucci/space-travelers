@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
 }
-.not-member{
+
+.not-member {
   padding: 0;
 }
-.not-member,.join-mission{
+
+.not-member,
+.join-mission {
   width: 130px;
   font-size: 15px;
 }
