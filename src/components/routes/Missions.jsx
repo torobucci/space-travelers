@@ -9,7 +9,7 @@ const Missions = () => {
   const dispatch = useDispatch();
 
   return (
-    <Table striped bordered>
+    <Table striped bordered className="container">
       <thead>
         <tr>
           <th>Missions</th>
