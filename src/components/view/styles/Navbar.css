@@ -13,11 +13,11 @@ a {
   color: blue;
 }
 
-.divider{
- border-bottom: 1px solid #ced4da;
- width: 87%;
- margin:0 auto;
- margin-bottom: 20px;
+.divider {
+  border-bottom: 1px solid #ced4da;
+  width: 87%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .mission {
