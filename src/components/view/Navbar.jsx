@@ -28,6 +28,7 @@ function NavBar() {
           </Nav>
         </Container>
       </Navbar>
+      <div className="divider" />
     </>
   );
 }
