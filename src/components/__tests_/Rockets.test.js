@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { useSelector, useDispatch } from 'react-redux';
-import Rockets from '../routes/Rockets';
 import renderer from 'react-test-renderer';
-import '@testing-library/jest-dom'
+import Rockets from '../routes/Rockets';
+import '@testing-library/jest-dom';
 
 jest.mock('react-redux');
 jest.mock('react-bootstrap/esm/Button', () => 'MockedBootstrapButton');

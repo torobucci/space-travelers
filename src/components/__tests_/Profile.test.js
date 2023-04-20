@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { useSelector } from 'react-redux';
-import Profile from '../routes/Profile';
 import renderer from 'react-test-renderer';
-import '@testing-library/jest-dom'
+import Profile from '../routes/Profile';
+import '@testing-library/jest-dom';
 
 jest.mock('react-bootstrap/esm/Container', () => 'MockedBootstrapContainer');
 jest.mock('react-redux', () => ({

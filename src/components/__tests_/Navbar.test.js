@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from '../view/Navbar';
 import renderer from 'react-test-renderer';
-import '@testing-library/jest-dom'
+import NavBar from '../view/Navbar';
+import '@testing-library/jest-dom';
 
 jest.mock('react-bootstrap/esm/Navbar', () => 'MockedBootstrapNavbar');
 describe('NavBar', () => {
@@ -11,7 +11,7 @@ describe('NavBar', () => {
     render(
       <BrowserRouter>
         <NavBar />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
   });
 
@@ -44,9 +44,11 @@ describe('NavBar', () => {
     expect(profileLink).toHaveAttribute('href', '/my profile');
   });
   it('Navbar snapshots match', () => {
-    const tree = renderer.create(<BrowserRouter>
+    const tree = renderer.create(
+      <BrowserRouter>
         <NavBar />
-      </BrowserRouter>).toJSON();
+      </BrowserRouter>,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

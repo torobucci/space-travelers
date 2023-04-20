@@ -2,9 +2,9 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import Missions from '../routes/Missions';
-import '@testing-library/jest-dom'
 import renderer from 'react-test-renderer';
+import Missions from '../routes/Missions';
+import '@testing-library/jest-dom';
 
 jest.mock('axios', () => 'Mockedaxios');
 const mockStore = configureStore([]);
@@ -75,9 +75,11 @@ describe('Missions component', () => {
     expect(actions[0].payload).toBe(2);
   });
   it('Missions snapshots match', () => {
-    const tree = renderer.create(<Provider store={store}>
+    const tree = renderer.create(
+      <Provider store={store}>
         <Missions />
-      </Provider>,).toJSON();
+      </Provider>,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
