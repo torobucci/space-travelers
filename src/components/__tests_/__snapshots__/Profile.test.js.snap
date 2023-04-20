@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile component Profile snapshots match 1`] = `
+<MockedBootstrapContainer
+  className="d-flex"
+>
+  <MockedBootstrapContainer>
+    <h2>
+      My Missions
+    </h2>
+    <div
+      className="list-group"
+      onKeyDown={[Function]}
+    >
+      <div
+        className="list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        Mission 1
+      </div>
+    </div>
+  </MockedBootstrapContainer>
+  <MockedBootstrapContainer>
+    <h2>
+      My Rockets
+    </h2>
+    <div
+      className="list-group"
+      onKeyDown={[Function]}
+    >
+      <div
+        className="list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        Rocket 1
+      </div>
+    </div>
+  </MockedBootstrapContainer>
+</MockedBootstrapContainer>
+`;
