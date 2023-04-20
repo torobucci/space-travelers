@@ -32,19 +32,19 @@ Space Traveler's Hub is an application that provides commercial and scientific s
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **ReactJS**
-- **Bootstrap CSS**
-- **Redux-Toolkit**
-- **CSS 3**
+- [ ] **React**
+- [ ] **Bootstrap CSS**
+- [ ] **Redux-Toolkit**
+- [ ] **CSS 3**
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- ** Navigation Bar **
-- ** Rockets List Page **
-- ** Missions List Page **
-- ** Profile Page **
+- [ ] **Navigation Bar**
+- [ ] **Rockets List Page**
+- [ ] **Missions List Page**
+- [ ] **Profile Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   git clone git@github.com/torobucci/space-travelers.git
-  cd spaceTravelersHub
+  cd space-travelers
 ```
 
 ### Install
@@ -84,7 +84,6 @@ Example command:
   npm install
 ```
 
--
 
 ### Usage
 
@@ -94,14 +93,9 @@ To run the project, execute the following command:
   npm run start
 ```
 
--
-
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-## 👥 Kevin Toro
-
+## 👥 Author : <a name="authors">Kevin Toro</a>
 - GitHub: [@torobucii](https://github.com/torobucci)
 - Twitter: [@torobucii](https://twitter.com/@torobucii)
 - LinkedIn: [Kevin Toro](https://www.linkedin.com/in/kevin-toro-047181238/)
@@ -147,6 +141,6 @@ I would like to thank [Microverse](https://github.com/microverseinc) for providi
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/torobucci/Portfolio-finish-mobile-version/blob/main/MIT-LICENSE.txt) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
