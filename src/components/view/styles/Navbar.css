@@ -1,0 +1,26 @@
+.brand-text {
+  color: black;
+  cursor: pointer;
+}
+
+a {
+  color: #0290ff;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+  color: blue;
+}
+
+.divider {
+  border-bottom: 1px solid #ced4da;
+  width: 87%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.mission {
+  padding-right: 15px;
+  border-right: 1px solid gray;
+}

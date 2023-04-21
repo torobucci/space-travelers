@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Rockets Component Rockets snapshots match 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="d-flex m-4"
+  >
+    <img
+      alt="rocket-img"
+      src="https://farm1.staticflickr.com/27/60914660_3a1a118583_b.jpg"
+      width="300px"
+    />
+    <div
+      className="ms-4"
+    >
+      <h1>
+        Falcon 1
+      </h1>
+      <p>
+        <span
+          className="me-2 badge bg-primary"
+        >
+          Reserved
+        </span>
+        The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009.
+      </p>
+      <MockedBootstrapButton
+        onClick={[Function]}
+        variant="outline-secondary"
+      >
+        Cancel Reservation
+      </MockedBootstrapButton>
+    </div>
+  </div>
+  <div
+    className="d-flex m-4"
+  >
+    <img
+      alt="rocket-img"
+      src="https://farm1.staticflickr.com/745/32394687645_a9c54a34ef_b.jpg"
+      width="300px"
+    />
+    <div
+      className="ms-4"
+    >
+      <h1>
+        Falcon 9
+      </h1>
+      <p>
+        Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit.
+      </p>
+      <MockedBootstrapButton
+        onClick={[Function]}
+        variant="primary"
+      >
+        Reserve Rocket
+      </MockedBootstrapButton>
+    </div>
+  </div>
+</div>
+`;
